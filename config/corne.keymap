@@ -26,7 +26,7 @@
         compatible = "zmk,combos";
 
         Layout-Qwerty {
-            bindings = <&to 1>;
+            bindings = <&to 0>;
             key-positions = <1 2 4 3>;
         };
 
