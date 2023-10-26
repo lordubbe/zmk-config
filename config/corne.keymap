@@ -29,18 +29,23 @@
         };
 
         Layout-ColemakDH {
-            bindings = <&to 1>;
+            bindings = <&to 2>;
             key-positions = <25 26 27 28>;
         };
 
         Toggle-NUM_PAD {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <39 38>;
         };
 
         lambda-combo {
             bindings = <&lambda>;
             key-positions = <9 10>;
+        };
+
+        gaming-toggle {
+            bindings = <&tog 1>;
+            key-positions = <36 41 40 37>;
         };
     };
 
@@ -66,8 +71,17 @@
             bindings = <
 &mt ESC TAB  &kp Q  &kp W  &kp E         &kp R     &kp T              &kp Y      &kp U          &kp I        &kp O    &kp P     &kp LEFT_BRACKET
 &kp LSHFT    &kp A  &kp S  &kp D         &kp F     &kp G              &kp H      &kp J          &kp K        &kp L    &kp SEMI  &kp SQT
-&kp LCTRL    &kp Z  &kp X  &kp C         &kp V     &kp B              &kp N      &kp M          &kp COMMA    &kp DOT  &kp FSLH  &mo 3
-                           &kp LEFT_WIN  &kp LALT  &lt_spc 2 SPACE    &kp SPACE  &kp BACKSPACE  &lt 4 ENTER
+&kp LCTRL    &kp Z  &kp X  &kp C         &kp V     &kp B              &kp N      &kp M          &kp COMMA    &kp DOT  &kp FSLH  &mo 4
+                           &kp LEFT_WIN  &kp LALT  &lt_spc 3 SPACE    &kp SPACE  &kp BACKSPACE  &lt 5 ENTER
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
