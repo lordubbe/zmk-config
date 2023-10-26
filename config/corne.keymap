@@ -37,6 +37,20 @@
             bindings = <&tog 5>;
             key-positions = <39 38>;
         };
+
+        lambda-combo {
+            bindings = <&lambda>;
+            key-positions = <9 10>;
+        };
+    };
+
+    macros {
+        lambda: lambda {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp GT>;
+            label = "LAMBDA";
+        };
     };
 
     keymap {
