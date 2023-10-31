@@ -74,8 +74,23 @@
         };
 
         right-brace {
-            bindings = <&kp RA(N8)>;
+            bindings = <&kp RA(N0)>;
             key-positions = <32 33>;
+        };
+
+        parentheses {
+            bindings = <&parentheses>;
+            key-positions = <19 20 21>;
+        };
+
+        brackets {
+            bindings = <&brackets>;
+            key-positions = <7 8 9>;
+        };
+
+        braces {
+            bindings = <&braces>;
+            key-positions = <31 32 33>;
         };
     };
 
@@ -85,6 +100,24 @@
             #binding-cells = <0>;
             bindings = <&kp LS(NUMBER_0) &kp LS(NON_US_BSLH)>;
             label = "LAMBDA";
+        };
+        parentheses: parentheses {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N8) &kp LS(N9) &kp LEFT_ARROW>;
+            label = "PARENTHESES";
+        };
+        brackets: brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(N8) &kp RA(N9) &kp LEFT_ARROW>;
+            label = "BRACKETS";
+        };
+        braces: braces {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(N7) &kp RA(N0) &kp LEFT_ARROW>;
+            label = "BRACES";
         };
     };
 
