@@ -47,13 +47,43 @@
             bindings = <&tog 1>;
             key-positions = <36 41 40 37>;
         };
+
+        left-parenthesis {
+            bindings = <&kp LS(N8)>;
+            key-positions = <19 20>;
+        };
+
+        right-parenthesis {
+            bindings = <&kp LS(N9)>;
+            key-positions = <20 21>;
+        };
+
+        left-bracket {
+            bindings = <&kp RA(N8)>;
+            key-positions = <7 8>;
+        };
+
+        right-bracket {
+            bindings = <&kp RA(N9)>;
+            key-positions = <8 9>;
+        };
+
+        left-brace {
+            bindings = <&kp RA(N7)>;
+            key-positions = <31 32>;
+        };
+
+        right-brace {
+            bindings = <&kp RA(N8)>;
+            key-positions = <32 33>;
+        };
     };
 
     macros {
         lambda: lambda {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp GT>;
+            bindings = <&kp LS(NUMBER_0) &kp LS(NON_US_BSLH)>;
             label = "LAMBDA";
         };
     };
