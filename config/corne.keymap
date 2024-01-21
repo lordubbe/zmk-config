@@ -40,7 +40,7 @@
 
         lambda-combo {
             bindings = <&lambda>;
-            key-positions = <9 10>;
+            key-positions = <9 10 8>;
         };
 
         gaming-toggle {
@@ -101,18 +101,21 @@
             bindings = <&kp LS(NUMBER_0) &kp LS(NON_US_BSLH)>;
             label = "LAMBDA";
         };
+
         parentheses: parentheses {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(N8) &kp LS(N9) &kp LEFT_ARROW>;
             label = "PARENTHESES";
         };
+
         brackets: brackets {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp RA(N8) &kp RA(N9) &kp LEFT_ARROW>;
             label = "BRACKETS";
         };
+
         braces: braces {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
