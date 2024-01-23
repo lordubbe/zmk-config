@@ -92,6 +92,11 @@
             bindings = <&braces>;
             key-positions = <31 32 33>;
         };
+
+        select-current {
+            bindings = <&select_current>;
+            key-positions = <11 23 35>;
+        };
     };
 
     macros {
@@ -121,6 +126,13 @@
             #binding-cells = <0>;
             bindings = <&kp RA(N7) &kp RA(N0) &kp LEFT_ARROW>;
             label = "BRACES";
+        };
+
+        select_current: select_current {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(RIGHT) &kp LS(LC(LEFT))>;
+            label = "SELECT_CURRENT";
         };
     };
 
