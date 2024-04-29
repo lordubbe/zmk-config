@@ -199,7 +199,7 @@
 &trans  &kp LS(NUMBER_1)  &kp RA(NUMBER_2)  &trans            &kp RA(NUMBER_4)  &kp LS(NUMBER_5)    &kp SLASH  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp LS(NUBS)  &kp RA(RIGHT_BRACKET)  &kp DELETE
 &trans  &trans            &kp LS(NUMBER_0)  &kp SLASH         &kp MINUS         &kp LS(NUMBER_6)    &kp NUBS   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUBS)  &kp BSLH               &kp EQUAL
 &trans  &trans            &trans            &kp LS(NUMBER_7)  &kp PIPE          &kp RA(EQUAL)       &kp GRAVE  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &trans        &kp PIPE               &kp TILDE
-                                            &trans            &trans            &trans              &trans     &trans            &trans
+                                            &trans            &trans            &trans              &trans     &trans            &none
             >;
         };
 
