@@ -98,6 +98,16 @@
             bindings = <&select_current>;
             key-positions = <11 23 35>;
         };
+
+        less-than {
+            bindings = <&kp NUBS>;
+            key-positions = <18 19>;
+        };
+
+        more-than {
+            bindings = <&kp LS(NUBS)>;
+            key-positions = <21 22>;
+        };
     };
 
     macros {
