@@ -111,7 +111,7 @@
 
         delete-alt-backspace {
             bindings = <&kp DELETE>;
-            key-positions = <37 40>;
+            key-positions = <10 11>;
         };
 
         email {
