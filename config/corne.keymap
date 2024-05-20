@@ -111,7 +111,12 @@
 
         delete-alt-backspace {
             bindings = <&kp DELETE>;
-            key-positions = <11 10 9>;
+            key-positions = <37 40>;
+        };
+
+        email {
+            bindings = <&email>;
+            key-positions = <10 9 11>;
         };
     };
 
@@ -231,7 +236,7 @@
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PG_UP  &kp HOME        &kp UP_ARROW    &kp END          &trans  &trans
 &trans          &trans        &kp PRINTSCREEN  &trans        &trans        &trans          &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans          &trans        &trans           &trans        &trans        &out OUT_TOG    &trans     &trans          &trans          &trans           &trans  &trans
-                                               &bt BT_CLR    &email        &trans          &trans     &trans          &trans
+                                               &bt BT_CLR    &none         &trans          &trans     &trans          &trans
             >;
         };
 
