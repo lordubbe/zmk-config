@@ -166,7 +166,8 @@
             #binding-cells = <0>;
             bindings = <&none &kp J &kp A &kp C &kp O &kp B &kp L &kp Y &kp N &kp G &kp G &kp A &kp A &kp R &kp D &kp O &kp L &kp S &kp E &kp N &kp RA(NUMBER_2) &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL";
-            wait-ms = <(-1)>;
+            wait-ms = <0>;
+            tap-ms = <1>;
         };
 
         crocodiles: crocodiles {
