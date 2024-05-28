@@ -123,6 +123,11 @@
             bindings = <&crocodiles>;
             key-positions = <18 19 20 21>;
         };
+
+        long-space {
+            bindings = <&kp SPACE>;
+            key-positions = <37 38>;
+        };
     };
 
     macros {
