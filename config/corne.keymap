@@ -133,6 +133,11 @@
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
+
+        space-combo {
+            bindings = <&kp SPACE>;
+            key-positions = <36 37>;
+        };
     };
 
     macros {
