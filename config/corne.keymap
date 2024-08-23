@@ -126,17 +126,12 @@
 
         long-space {
             bindings = <&kp SPACE>;
-            key-positions = <37 38>;
+            key-positions = <37 36>;
         };
 
         ESC-combo {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
-        };
-
-        space-combo {
-            bindings = <&kp SPACE>;
-            key-positions = <36 37>;
         };
     };
 
