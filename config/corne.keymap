@@ -129,7 +129,7 @@
             key-positions = <37 36>;
         };
 
-        ESC-combo {
+        escape-combo {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
