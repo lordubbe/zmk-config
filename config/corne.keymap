@@ -130,7 +130,7 @@
         };
 
         ESC-combo {
-            bindings = <&kp ESC>;
+            bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
     };
